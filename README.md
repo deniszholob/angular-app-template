@@ -32,6 +32,7 @@ Search and replace the following in this project:
 * [Bootstrap Doc](https://getbootstrap.com/docs/4.2/layout/grid/)
 * [Clarity Doc](https://clarity.design/documentation)
 * [NGX-Translate Doc](https://github.com/ngx-translate/core#usage)
+* [Angular PWA Tutorial](https://www.youtube.com/watch?v=othhfZ0mGjU)
 
 ### Performance Testing
 * [Google Insights](https://developers.google.com/speed/pagespeed/insights/)
@@ -52,6 +53,14 @@ Search and replace the following in this project:
 * Run `npm run build` or `build:dev` to build the project.
 * The build artifacts will be stored in the `public/` directory.
 * Run `build:prod` for a production build.
+
+
+## PWA build/dev server
+* Service worker config `ngsw-config.json`
+  * `urls`: online cdn resources to cache
+  * `datagroups`: api urls to cache
+* Run `npm run build`
+* Run `npm run start:prod`
 
 
 ## Production Builds/Deployment
