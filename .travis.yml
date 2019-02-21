@@ -15,7 +15,7 @@ branches:
 
 script:
     - echo 'Building app...'
-    - sh ./buildscripts/build.sh # Generates the public folder with built angular app
+    - sh ./build-scripts/build.sh # Generates the public folder with built angular app
     - echo 'Deploying app...'
 
 deploy:
