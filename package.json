@@ -1,0 +1,45 @@
+{
+  "name": "angular-app-template",
+  "version": "0.0.0",
+  "license": "GPL-3",
+  "repository": "github:deniszholob/angular-app-template",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --port 4200",
+    "build": "ng build",
+    "build:dev": "ng build --dev --base-href ./",
+    "build:prod": "ng build --prod --base-href ./",
+    "test": "echo 'No tests yet...'",
+    "lint": "ng lint"
+  },
+  "private": true,
+  "engines": {
+    "node": ">= 10.14.1",
+    "npm": ">= 6.4.1"
+  },
+  "dependencies": {
+    "@angular/animations": "~7.2.0",
+    "@angular/common": "~7.2.0",
+    "@angular/compiler": "~7.2.0",
+    "@angular/core": "~7.2.0",
+    "@angular/forms": "~7.2.0",
+    "@angular/platform-browser": "~7.2.0",
+    "@angular/platform-browser-dynamic": "~7.2.0",
+    "@angular/router": "~7.2.0",
+    "core-js": "^2.5.4",
+    "rxjs": "~6.3.3",
+    "tslib": "^1.9.0",
+    "zone.js": "~0.8.26"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.13.0",
+    "@angular/cli": "~7.3.1",
+    "@angular/compiler-cli": "~7.2.0",
+    "@angular/language-service": "~7.2.0",
+    "@types/node": "~8.9.4",
+    "codelyzer": "~4.5.0",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.11.0",
+    "typescript": "~3.2.2"
+  }
+}

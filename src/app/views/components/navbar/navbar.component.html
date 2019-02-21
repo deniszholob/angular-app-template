@@ -1,0 +1,14 @@
+<a routerLink="/" title="home">
+    <img class="navbar-logo" src="assets/icons/icon-64x64.png" alt="logo">
+</a>
+<ul class="navbar-links">
+    <li *ngFor="let navLink of navLinks">
+        <a *ngIf="!navLink.fragment" title="{{ navLink.name }}" routerLink="{{ navLink.path }}">
+            {{ navLink.name }}
+        </a>
+        <a *ngIf="navLink.fragment" title="{{ navLink.name }}" routerLink="{{ navLink.path }}"
+            fragment="{{ navLink.fragment }}">
+            {{ navLink.name }}
+        </a>
+    </li>
+</ul>

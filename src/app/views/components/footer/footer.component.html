@@ -1,0 +1,29 @@
+<section>
+    <div class="container">
+        <div class="social">
+            <a href="https://github.com/deniszholob" target="_blank" rel="noopener" title="Github">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">
+                <div>
+                    <span class="text-muted">&copy; {{ today | date:'y' }} </span>
+                    <a href="{{ APP_INFO.app.url }}" title="{{ APP_INFO.app.title }}">
+                        {{ APP_INFO.app.name }}
+                    </a>
+                </div>
+                <div>
+                    <span class="text-muted">Design by </span>
+                    <a href="{{ APP_INFO.author.url }}" title="{{ APP_INFO.app.name }}" target="_blank" rel="noopener">
+                        {{ APP_INFO.author.name }}
+                    </a>
+                </div>
+                <div>
+                    <span class="text-muted">Updated </span>
+                    <span>{{ APP_UPDATE_DATE | date:'y/M/d' }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'theme';
+@import 'structure';
+@import 'utils';
+
+html {
+    background-color: $c-theme-bg;
+    color: $c-theme-text;
+    font-size: 1em;
+}
+
+a {
+    color: $c-theme-primary;
+    text-decoration: none;
+    background-color: transparent;
+    &:hover {
+        color: $c-theme-primary-alt;
+    }
+}
