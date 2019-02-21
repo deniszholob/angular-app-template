@@ -9,5 +9,5 @@
 echo 'Build Script Started ...'
 sh build-scripts/update-date.sh
 echo 'Running npm build script ...'
-npm run build:prod
+npm run build
 echo 'Update Date script finished...'

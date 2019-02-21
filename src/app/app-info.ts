@@ -12,7 +12,7 @@ export const APP_INFO: AppInfo = {
         url: '//deniszholob.com',
     },
     // languages: ['en-US'],
-}
+};
 
 /** App level constants */
 interface AppInfo {
