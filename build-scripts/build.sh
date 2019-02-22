@@ -10,4 +10,5 @@ echo 'Build Script Started ...'
 sh ./build-scripts/update-date.sh
 echo 'Running npm build script ...'
 npm run build
+ls -al "public"
 echo 'Update Date script finished...'

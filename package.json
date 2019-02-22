@@ -9,9 +9,10 @@
     "start:prod": "http-server -p 8080 -c-1 public",
     "build": "npm run lint && npm run build:prod",
     "build:dev": "ng build --dev",
-    "build:prod": "ng build --prod",
+    "build:prod": "ng build --prod && npm run ngswfix",
     "test": "echo 'No tests yet...'",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "ngswfix": "node ./build-scripts/fix-ngsw.js"
   },
   "private": true,
   "engines": {
@@ -44,6 +45,7 @@
     "http-server": "^0.11.1",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.2.2"
+    "typescript": "~3.2.2",
+    "replace-in-file": "^3.1.1"
   }
 }
